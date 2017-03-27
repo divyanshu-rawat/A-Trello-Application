@@ -30,9 +30,12 @@ $(document).ready(() =>{
          // Get all of the information about the boards you have access to
 
               $('.boards-info').empty();
+              $('.list-info').empty();
               $('.boards-info').append("<ul class='list-group col-lg-4'></ul>");
 
                 var success = (successMsg) => {
+
+                  // console.log(JSON.stringify(successMsg,null,4));
                 
                   $('.loader').hide();
 
@@ -83,7 +86,9 @@ $(document).ready(() =>{
                 $('.list-info-two').empty();
                 $('.list-info-two').append("<ul class='list-group second-list col-lg-4'></ul>");
                 var success = (successMsg) =>{
-                    console.log(successMsg);
+
+                    console.log(JSON.stringify(successMsg,null,4));
+                  
                     $('.loader').hide();
 
                     for(let x of successMsg){
