@@ -64,7 +64,6 @@ Integrating with other collaborative project management tools used by communitie
 
 #### some examples
 
-* Text Selection
 
 ![alt tag](https://github.com/divyanshu-rawat/aTrelloApplication/blob/master/public/snapshots/main.png)
 
