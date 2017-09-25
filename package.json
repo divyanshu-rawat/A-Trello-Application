@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "express": "4.15.4"
+    "express": "5.0.0-alpha.6"
   },
   "devDependencies": {},
   "scripts": {
